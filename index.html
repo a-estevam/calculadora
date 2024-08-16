@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input class="input-display" type="text" readonly>
+
+        <button class="lightgray-button" onclick="clearInput()">AC</button>
+        <button class="lightgray-button" onclick="invert()">+/-</button>
+        <button class="lightgray-button" onclick="addcharacter('%')">%</button>
+        <button class="orange-button" onclick="addcharacter('/')">/</button>
+  
+        <button class="gray-button" onclick="addcharacter('7')">7</button>
+        <button class="gray-button" onclick="addcharacter('8')">8</button>
+        <button class="gray-button" onclick="addcharacter('9')">9</button>
+        <button class="orange-button" onclick="addcharacter('*')">*</button>
+  
+        <button class="gray-button" onclick="addcharacter('4')">4</button>
+        <button class="gray-button" onclick="addcharacter('5')">5</button>
+        <button class="gray-button" onclick="addcharacter('6')">6</button>
+        <button class="orange-button" onclick="addcharacter('-')">-</button>
+  
+        <button class="gray-button" onclick="addcharacter('1')">1</button>
+        <button class="gray-button" onclick="addcharacter('2')">2</button>
+        <button class="gray-button" onclick="addcharacter('3')">3</button>
+        <button class="orange-button" onclick="addcharacter('+')">+</button>
+  
+        <button class="gray-button" onclick="addcharacter('0')">0</button>
+        <button class="gray-button" onclick="addcharacter('.')">.</button>
+        <button class="orange-button equal" onclick="calc()">=</button>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
